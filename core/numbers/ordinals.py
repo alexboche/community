@@ -20,7 +20,7 @@ def ordinal(n):
 ordinal_words = {
     0: "zeroth",
     1: "first",
-    2: "second",
+    2: "seck",
     3: "third",
     4: "fourth",
     5: "fifth",

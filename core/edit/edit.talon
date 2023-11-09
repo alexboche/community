@@ -13,16 +13,16 @@ next one: edit.find_next()
 scroll up: edit.page_up()
 scroll down: edit.page_down()
 
-go word left: edit.word_left()
-go word right: edit.word_right()
+go word left | bird: edit.word_left()
+go word right | firch: edit.word_right()
 
-go left: edit.left()
-go right: edit.right()
-go up: edit.up()
-go down: edit.down()
+go left | leese: edit.left()
+go right | ross: edit.right()
+go up | sauce: edit.up()
+go down | dunce: edit.down()
 
-go line start | head: edit.line_start()
-go line end | tail: edit.line_end()
+go line start | lairch: edit.line_start()
+go line end | rairch: edit.line_end()
 
 go way left:
     edit.line_start()
@@ -40,20 +40,20 @@ go page down: edit.page_down()
 # Selecting
 select all: edit.select_all()
 select line: edit.select_line()
-select line start: user.select_line_start()
-select line end: user.select_line_end()
+shin lairch | select line start: user.select_line_start()
+shin rairch | select line end: user.select_line_end()
 
-select left: edit.extend_left()
-select right: edit.extend_right()
-select up: edit.extend_line_up()
-select down: edit.extend_line_down()
+select left | shin leese: edit.extend_left()
+select right | shin ross: edit.extend_right()
+select up | shin sauce: edit.extend_line_up()
+select down | shin dunce: edit.extend_line_down()
 
-select word: edit.select_word()
-select word left: edit.extend_word_left()
-select word right: edit.extend_word_right()
+select that: edit.select_word()
+select word left | shin bird: edit.extend_word_left()
+select word right | shin firch: edit.extend_word_right()
 
-select way left: edit.extend_line_start()
-select way right: edit.extend_line_end()
+select way left | shin lairch: edit.extend_line_start()
+select way right | shin rairch: edit.extend_line_end()
 select way up: edit.extend_file_start()
 select way down: edit.extend_file_end()
 
@@ -79,11 +79,11 @@ clear down:
 
 clear word: edit.delete_word()
 
-clear word left:
+clear word left | splat:
     edit.extend_word_left()
     edit.delete()
 
-clear word right:
+clear word right | frack:
     edit.extend_word_right()
     edit.delete()
 
