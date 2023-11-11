@@ -39,7 +39,7 @@ go page down: edit.page_down()
 
 # Selecting
 select all: edit.select_all()
-select line: edit.select_line()
+select line | shackle: edit.select_line()
 shin lairch | select line start: user.select_line_start()
 shin rairch | select line end: user.select_line_end()
 
@@ -179,7 +179,7 @@ new line below | slap: edit.line_insert_down()
     insert(" ")
 
 # Undo/redo
-undo that: edit.undo()
+undo that | undo: edit.undo()
 redo that: edit.redo()
 
 # Save
